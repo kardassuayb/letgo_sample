@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+//  COMPONENTS
+import Header from "./components/Header";
+import AboutUs from "./components/AboutUs";
+import Portfolio from "./components/Portfolio";
+import Blog from "./components/Blog";
+import ContactUs from "./components/ContactUs";
+//  IMAGES
+import logo from "./assets/images/doob_logo.png";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="max-w-7xl w-full mx-auto flex">
+      <img src={logo} alt="logo" className="w-[90px] h-[40px] mt-3" />
+      <div className="max-w-4xl mx-auto flex flex-col items-center justify-between py-4">
+        <Header />
+        <AboutUs />
+        <Portfolio />
+        <Blog />
+        <ContactUs />
+      </div>
     </div>
   );
 }
