@@ -1,10 +1,5 @@
-import tail from "../assets/images/tailwind-css-nedir.png";
 const AboutUs = () => {
-  return (
-    <div>
-      <img src={tail} alt="tail" />
-    </div>
-  );
+  return <div>AboutUs</div>;
 };
 
 export default AboutUs;
