@@ -4,7 +4,7 @@ import Square from "../assets/common/square";
 const Portfolio = () => {
   return (
     <div className="w-full flex flex-col">
-      <div className="flex justify-between mt-16 mb-14">
+      <div className="flex justify-between mt-20 mb-14">
         <div className="flex flex-col gap-4 text-[#5C619C] text-3xl font-bold">
           <h1>See some of our</h1>
           <h1>Creative work.</h1>
