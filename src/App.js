@@ -7,7 +7,7 @@ import Blog from "./components/Blog";
 import ContactUs from "./components/ContactUs";
 //  IMAGES
 import logo from "./assets/images/doob_logo.png";
-import background1 from "./assets/images/backgorund_1.jpg";
+import background1 from "./assets/images/background_1.jpg";
 import background2 from "./assets/images/background_2.png";
 function App() {
   const background1Style = {
