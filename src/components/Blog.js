@@ -1,5 +1,3 @@
-import Square from "../assets/common/square";
-
 const Blog = () => {
   return (
     <div className="mt-28 w-full">

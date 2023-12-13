@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <div className="flex items-center">
           <div className="relative mr-4 font-medium text-[#5C619C]">
-            <select className="appearance-none border border-none px-3 py-1 rounded-md bg-transparent">
+            <select className="appearance-none border border-none px-3 py-1 rounded-md bg-transparent text-sm">
               <option value="tr">EN</option>
               <option value="en">TR</option>
             </select>
@@ -42,7 +42,7 @@ const Header = () => {
               <path d="M6 9l6 6l6 -6" />
             </svg>
           </div>
-          <button className=" flex bg-white text-[#e44545] font-medium px-4 py-2 rounded bordered shadow-sm shadow-gray-300">
+          <button className=" flex bg-white opacity-70 text-[#e44545] font-medium px-4 py-2 rounded bordered shadow-sm shadow-gray-300">
             Contact Us
             <svg
               xmlns="http://www.w3.org/2000/svg"
