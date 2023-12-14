@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <div id="aboutUs">
       {/* The Spirit... */}
-      <div className="w-[380px] mt-48 flex flex-col justify-start md:flex-col md:mx-auto md:mt-24 gap-7">
+      <div className="w-[380px] mt-48 flex flex-col justify-start md:w-[360px] md:mx-auto md:mt-24 gap-7">
         <div className="flex flex-col gap-4">
           <h1 className="text-[#5C619C] text-5xl font-bold">The Spirit of</h1>
           <h1 className="text-[#5C619C] text-5xl font-bold">Digital Agency.</h1>
@@ -30,7 +30,7 @@ const AboutUs = () => {
         </div>
       </div>
       {/* Anything you... */}
-      <div className="flex justify-between md:mx-auto mt-60 mr-4 md:mt-24">
+      <div className="flex justify-between md:mx-auto mt-60 mr-4 md:mt-24 md:w-[360px]">
         <div className="flex gap-8 md:flex md:flex-col md:w-full md:mx-auto md:gap-8">
           <div className="flex flex-col gap-6 w-1/3 md:mx-auto md:w-[380px] md:flex-row">
             <div className="flex flex-col gap-4">
@@ -76,7 +76,7 @@ const AboutUs = () => {
         </div>
       </div>
       {/* Some Fine... */}
-      <div className="ml-auto w-[436px] mt-32 flex flex-col gap-6 md:mx-auto md:w-[380px] md:mt-24 lg:mb-28 md:mb-0">
+      <div className="ml-auto w-[436px] mt-32 flex flex-col gap-6 md:mx-auto md:w-[360px] md:mt-24 lg:mb-28 md:mb-0">
         <h4 className="text-[#f06d6d] font-bold">OUR COMPANY</h4>
         <div>
           <h1 className="text-[#5C619C] text-3xl font-bold">Some Fine</h1>
