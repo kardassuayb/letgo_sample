@@ -4,15 +4,15 @@ Bu projemde Letgo'dan aldığım case'de bulunan görünümü birebir elde edebi
 
 Kullandığım Teknolojiler ve Kütüphaneler;
 
- [REACT =>](https://react.dev/) 
+REACT](https://react.dev/) 
 
-TAILWIND CSS => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://tailwindcss.com/)
+[TAILWIND CSS](https://tailwindcss.com/)
 
-TABLER ICON => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://tabler.io/icons)
+[TABLER ICON](https://tabler.io/icons)
 
-Projemin Canlı Versiyonunu Bu Linkten İnceleyebilirsiniz;
+Projemin Canlı VersiyonunA Bu Bağlantıdan Ulaşabilirsiniz;
 
-CANLI VERSİYON => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://suayb-kardas-letgo-case.netlify.app/)
+[CANLI VERSİYON](https://suayb-kardas-letgo-case.netlify.app/)
 
 
 # Getting Started with Create React App
