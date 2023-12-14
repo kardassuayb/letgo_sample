@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="bg-transparent w-[100%] ">
+    <header id="header" className="bg-transparent w-[100%] ">
       <div className="flex justify-between">
         <div className="flex items-center text-[#5C619C] font-medium text-sm">
           <nav className="flex items-center gap-6">
@@ -42,7 +42,10 @@ const Header = () => {
               <path d="M6 9l6 6l6 -6" />
             </svg>
           </div>
-          <button className=" flex bg-white opacity-70 text-[#e44545] font-medium px-4 py-2 rounded bordered shadow-sm shadow-gray-300">
+          <a
+            href="#contactUs"
+            className=" flex bg-white opacity-70 text-[#e44545] font-medium px-4 py-2 rounded bordered shadow-sm shadow-gray-300"
+          >
             Contact Us
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +64,7 @@ const Header = () => {
               <path d="M18 18l8 -6" />
               <path d="M18 6l8 6" />
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </header>

@@ -3,7 +3,7 @@ import Square from "../assets/common/square";
 
 const Portfolio = () => {
   return (
-    <div className="w-full flex flex-col">
+    <div id="portfolio" className="w-full flex flex-col">
       <div className="flex justify-between mt-20 mb-14">
         <div className="flex flex-col gap-4 text-[#5C619C] text-3xl font-bold">
           <h1>See some of our</h1>
@@ -54,9 +54,12 @@ const Portfolio = () => {
         <Square />
         <Square />
       </div>
-      <button className="text-[#f06d6d] text-sm font-bold mt-8 mx-auto">
+      <a
+        href="#portfolio"
+        className="text-[#f06d6d] text-sm font-bold mt-8 mx-auto"
+      >
         See More of These.
-      </button>
+      </a>
     </div>
   );
 };

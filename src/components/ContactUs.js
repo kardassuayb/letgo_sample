@@ -1,13 +1,19 @@
 const ContactUs = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
-    <div className="mt-28 mb-10 w-full">
+    <div id="contactUs" className="mt-28 mb-10 w-full">
       <h4 className="text-[#f06d6d] text-sm font-bold mr-auto ml-2">
         CONTACT US
       </h4>
       <h1 className="text-[#5C619C] text-3xl font-bold mt-4 ml-1">
         Get in Touch
       </h1>
-      <form className="mt-8 flex flex-col justify-between">
+      <form
+        onSubmit={handleSubmit}
+        className="mt-8 flex flex-col justify-between"
+      >
         <div className="flex mb-4">
           <input
             type="text"

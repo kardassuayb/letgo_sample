@@ -1,6 +1,6 @@
 const Blog = () => {
   return (
-    <div className="mt-28 w-full">
+    <div id="blog" className="mt-28 w-full">
       <h4 className="text-[#f06d6d] text-sm font-bold mr-auto ml-2">
         BLOG STORIES
       </h4>

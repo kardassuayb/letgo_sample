@@ -26,9 +26,12 @@ function App() {
     <div
       style={background1Style}
       className="max-w-7xl w-full mx-auto flex flex-col"
+      id="home"
     >
       <div className="flex">
-        <img src={logo} alt="logo" className="w-[90px] h-[40px] mt-4" />
+        <a href="#home">
+          <img src={logo} alt="logo" className="w-[90px] h-[40px] mt-4" />
+        </a>
         <div
           style={background2Style}
           className="max-w-4xl mx-auto flex flex-col items-center justify-between py-4 w-full"

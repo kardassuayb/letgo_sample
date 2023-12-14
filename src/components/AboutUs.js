@@ -4,7 +4,7 @@ import editor from "../assets/images/editor.png";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id="aboutUs">
       {/* The Spirit... */}
       <div className="mr-auto w-[380px] mt-48 flex flex-col gap-7">
         <div className="flex flex-col gap-4">
@@ -19,9 +19,12 @@ const AboutUs = () => {
           <button className="text-slate-100 bg-[#f06d6d] rounded-full ml-1 py-2 px-4">
             More About us
           </button>
-          <button className="text-[#5C619C] text-sm font-semibold">
+          <a
+            href="#contactUs"
+            className="text-[#5C619C] text-sm font-semibold flex items-center"
+          >
             Get in Touch.
-          </button>
+          </a>
         </div>
       </div>
       {/* Anything you... */}
@@ -37,9 +40,12 @@ const AboutUs = () => {
                 got you covered
               </h1>
             </div>
-            <button className="text-slate-100 text-sm w-28 bg-[#f06d6d] rounded-full ml-1 py-2 px-4">
+            <a
+              href="#contactUs"
+              className="text-slate-100 text-sm w-28 bg-[#f06d6d] rounded-full ml-1 py-2 px-4"
+            >
               Get in Touch
-            </button>
+            </a>
           </div>
           <div className="px-8 py-4 flex flex-col gap-8 justify-between bg-transparent bordered shadow-md shadow-gray-300 w-1/3 h-auto">
             <img src={briefcase} alt="briefcase" width={50} />
