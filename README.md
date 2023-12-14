@@ -10,7 +10,8 @@ TAILWIND CSS => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](h
 
 TABLER ICON => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://tabler.io/icons)
 
-Projemi Canlıya Aldığım Bu Linkten İnceleyebilirsiniz;
+Projemin Canlı Versiyonunu Bu Linkten İnceleyebilirsiniz;
+
 
 
 
