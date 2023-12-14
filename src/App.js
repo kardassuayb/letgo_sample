@@ -26,7 +26,7 @@ function App() {
       <div className="flex">
         <a
           href="#home"
-          className="absolute inset-0 mr-auto ml-28 xl:ml-4 mt-3 lg:hidden"
+          className="absolute mr-auto ml-28 xl:ml-4 mt-3 lg:hidden"
         >
           <img src={logo} alt="logo" className="w-[40px] h-[20px] mx-2 mt-4" />
         </a>
