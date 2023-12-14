@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <div id="aboutUs">
       {/* The Spirit... */}
-      <div className="w-[380px] mt-48 flex flex-col justify-start md:mx-auto md:mt-24 gap-7">
+      <div className="w-[380px] mt-48 flex flex-col justify-start md:flex-col md:mx-auto md:mt-24 gap-7">
         <div className="flex flex-col gap-4">
           <h1 className="text-[#5C619C] text-5xl font-bold">The Spirit of</h1>
           <h1 className="text-[#5C619C] text-5xl font-bold">Digital Agency.</h1>
