@@ -4,7 +4,7 @@ Bu projemde Letgo'dan aldığım case'de bulunan görünümü birebir elde edebi
 
 Kullandığım Teknolojiler ve Kütüphaneler;
 
-REACT](https://react.dev/) 
+[REACT](https://react.dev/) 
 
 [TAILWIND CSS](https://tailwindcss.com/)
 
