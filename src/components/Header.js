@@ -2,8 +2,7 @@ import { useState } from "react";
 // IMAGES
 import logo from "../assets/images/doob_logo.png";
 // ICONS
-import { IconMenu2 } from "@tabler/icons-react";
-import { IconLayoutSidebarRightExpand } from "@tabler/icons-react";
+import { IconMenu2, IconLayoutSidebarRightExpand } from "@tabler/icons-react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

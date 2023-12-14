@@ -1,9 +1,11 @@
 // IMAGES
 import logoWhite from "../assets/images/doob_logo_white.png";
 // ICONS
-import { IconBrandFacebookFilled } from "@tabler/icons-react";
-import { IconBrandTwitterFilled } from "@tabler/icons-react";
-import { IconBrandDribbble } from "@tabler/icons-react";
+import {
+  IconBrandFacebookFilled,
+  IconBrandDribbble,
+  IconBrandTwitterFilled,
+} from "@tabler/icons-react";
 
 const Footer = () => {
   return (

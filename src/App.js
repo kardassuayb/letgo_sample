@@ -1,4 +1,3 @@
-import "./App.css";
 //  COMPONENTS
 import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
@@ -11,21 +10,16 @@ import logo from "./assets/images/doob_logo.png";
 import background1 from "./assets/images/background_1.jpg";
 import background2 from "./assets/images/background_2.png";
 
+const backgroundStyle = (image) => ({
+  backgroundImage: `url(${image})`,
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+});
 function App() {
-  const background1Style = {
-    backgroundImage: `url(${background1})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
-  const background2Style = {
-    backgroundImage: `url(${background2})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
   return (
     <div className="w-full flex flex-col justify-center relative">
       <div
-        style={background1Style}
+        style={backgroundStyle(background1)}
         className="flex md:hidden flex-col max-w-7xl w-full justify-center absolute inset-0 -z-10"
         id="home"
       ></div>
@@ -37,7 +31,7 @@ function App() {
           <img src={logo} alt="logo" className="w-[40px] h-[20px] mx-2 mt-4" />
         </a>
         <div
-          style={background2Style}
+          style={backgroundStyle(background2)}
           className="max-w-4xl mx-auto flex flex-col items-center py-4 w-full"
         >
           <Header />

@@ -1,3 +1,6 @@
+// COMMON
+import Svg from "../assets/common/svg";
+
 const Blog = () => {
   return (
     <div id="blog" className="mt-28 w-full md:flex-col md:mx-auto md:w-[380px]">
@@ -10,42 +13,7 @@ const Blog = () => {
             <h1>Check Our News</h1>
           </div>
         </div>
-        <div className="flex items-end md:ml-auto">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-arrow-left"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="#C2B8C3"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M5 12l10 0" />
-            <path d="M5 12l6 6" />
-            <path d="M5 12l6 -6" />
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-arrow-right"
-            width="32"
-            height="24"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="#5C619C"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M5 12l18 0" />
-            <path d="M18 18l8 -6" />
-            <path d="M18 6l8 6" />
-          </svg>
-        </div>
+        <Svg />
       </div>
       <div className="flex flex-wrap justify-between lg:justify-around md:mx-auto sm:gap-10">
         <div className="bg-[#FF3946] w-[286px] h-[260px] px-8 py-8 opacity-70 md:w-[244px] sm:w-[286px]">
