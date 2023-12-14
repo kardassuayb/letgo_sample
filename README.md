@@ -2,6 +2,7 @@ Merhaba;
 
 Bu projemde Letgo'dan aldığım case'de bulunan görünümü birebir elde edebilmek için Photoshop uygulamasında katmanları temizleyip background'ları ayırdım ve onları kendi projemde kullandım. Projemin ana yapısını React.Js ile oluştururken, stillendirmeler için Tailwind Css kütüphanesinden faydalandım. Projemi önce masaüstü görünüm için tasarlayıp, sonrasında responsive görünüm kazandırdım. Responsive görünüm için tailwind.config.js dosyasında ekran tanımlamalarını amacıma uygun olacak şekilde yeniden düzenledim. Proje genelinde elimden geldiğince clean code prensiplerine uygun hareket etmeye çalıştım.
 
+
 Kullandığım Teknolojiler ve Kütüphaneler;
 
 [REACT](https://react.dev/) 
@@ -10,7 +11,8 @@ Kullandığım Teknolojiler ve Kütüphaneler;
 
 [TABLER ICON](https://tabler.io/icons)
 
-Projemin Canlı VersiyonunA Bu Bağlantıdan Ulaşabilirsiniz;
+
+Projemin Canlı Versiyonuna Bu Bağlantıdan Ulaşabilirsiniz;
 
 [CANLI VERSİYON](https://suayb-kardas-letgo-case.netlify.app/)
 
