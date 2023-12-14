@@ -1,8 +1,19 @@
-SAVE => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/)
+Merhaba;
+
+Bu projemde Letgo'dan aldığım case'de bulunan görünümü birebir elde edebilmek için Photoshop uygulamasında katmanları temizleyip background'ları ayırdım ve onları kendi projemde kullandım. Projemin ana yapısını React.Js ile oluştururken, stillendirmeler için Tailwind Css kütüphanesinden faydalandım. Projemi önce masaüstü görünüm için tasarlayıp, sonrasında responsive görünüm kazandırdım. Responsive görünüm için tailwind.config.js dosyasında ekran tanımlamalarını amacıma uygun olacak şekilde yeniden düzenledim. Proje genelinde elimden geldiğince clean code prensiplerine uygun hareket etmeye çalıştım.
+
+Kullandığım Teknolojiler ve Kütüphaneler;
+
+REACT => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://react.dev/)
+TAILWIND CSS => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://tailwindcss.com/)
+TABLER ICON => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://tabler.io/icons)
+
+Projemi Canlıya Aldığım Bu Linkten İnceleyebilirsiniz;
 
 
 
 # Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
