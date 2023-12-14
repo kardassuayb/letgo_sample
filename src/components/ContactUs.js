@@ -4,15 +4,17 @@ const ContactUs = () => {
   };
   return (
     <div id="contactUs" className="mt-28 mb-10 w-full">
-      <h4 className="text-[#f06d6d] text-sm font-bold mr-auto ml-2">
-        CONTACT US
-      </h4>
-      <h1 className="text-[#5C619C] text-3xl font-bold mt-4 ml-1">
-        Get in Touch
-      </h1>
+      <div className="md:mx-auto md:w-[380px]">
+        <h4 className="text-[#f06d6d] text-sm font-bold mr-auto ml-2">
+          CONTACT US
+        </h4>
+        <h1 className="text-[#5C619C] text-3xl font-bold mt-4 ml-1">
+          Get in Touch
+        </h1>
+      </div>
       <form
         onSubmit={handleSubmit}
-        className="mt-8 flex flex-col justify-between"
+        className="mt-8 flex flex-col justify-between md:mx-4"
       >
         <div className="flex mb-4">
           <input

@@ -23,18 +23,22 @@ function App() {
     backgroundRepeat: "no-repeat",
   };
   return (
-    <div
-      style={background1Style}
-      className="max-w-7xl w-full mx-auto flex flex-col"
-      id="home"
-    >
+    <div className="w-full flex flex-col justify-center relative">
+      <div
+        style={background1Style}
+        className="flex md:hidden flex-col max-w-7xl w-full justify-center absolute inset-0 -z-10"
+        id="home"
+      ></div>
       <div className="flex">
-        <a href="#home">
-          <img src={logo} alt="logo" className="w-[90px] h-[40px] mt-4" />
+        <a
+          href="#home"
+          className="absolute inset-0 mr-auto ml-28 xl:ml-4 mt-3 lg:hidden"
+        >
+          <img src={logo} alt="logo" className="w-[40px] h-[20px] mx-2 mt-4" />
         </a>
         <div
           style={background2Style}
-          className="max-w-4xl mx-auto flex flex-col items-center justify-between py-4 w-full"
+          className="max-w-4xl mx-auto flex flex-col items-center py-4 w-full"
         >
           <Header />
           <AboutUs />

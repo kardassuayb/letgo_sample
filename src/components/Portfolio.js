@@ -3,13 +3,16 @@ import Square from "../assets/common/square";
 
 const Portfolio = () => {
   return (
-    <div id="portfolio" className="w-full flex flex-col">
-      <div className="flex justify-between mt-20 mb-14">
+    <div
+      id="portfolio"
+      className="w-full flex flex-col mt-20 lg:mt-44 md:mt-24"
+    >
+      <div className="flex justify-between mb-14 md:flex-col md:mx-auto md:w-[380px]">
         <div className="flex flex-col gap-4 text-[#5C619C] text-3xl font-bold">
           <h1>See some of our</h1>
           <h1>Creative work.</h1>
         </div>
-        <div className="flex items-end">
+        <div className="flex items-end md:ml-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-arrow-left"
@@ -46,13 +49,17 @@ const Portfolio = () => {
           </svg>
         </div>
       </div>
-      <div className="flex flex-wrap gap-[19px]">
+      <div className="flex flex-wrap gap-[19px] lg:justify-around md:justify-center">
         <Square />
         <Square />
         <Square />
         <Square />
-        <Square />
-        <Square />
+        <div className="sm:hidden">
+          <Square />
+        </div>
+        <div className="sm:hidden">
+          <Square />
+        </div>
       </div>
       <a
         href="#portfolio"
