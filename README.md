@@ -12,7 +12,7 @@ TABLER ICON => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](ht
 
 Projemin Canlı Versiyonunu Bu Linkten İnceleyebilirsiniz;
 
-
+CANLI VERSİYON => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://suayb-kardas-letgo-case.netlify.app/)
 
 
 # Getting Started with Create React App
