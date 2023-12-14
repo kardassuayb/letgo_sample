@@ -4,8 +4,10 @@ Bu projemde Letgo'dan aldığım case'de bulunan görünümü birebir elde edebi
 
 Kullandığım Teknolojiler ve Kütüphaneler;
 
-REACT => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://react.dev/)
+REACT => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://react.dev/) 
+
 TAILWIND CSS => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://tailwindcss.com/)
+
 TABLER ICON => [https://www.borakasmer.com/net-coreda-redis-cache-kullanimi/](https://tabler.io/icons)
 
 Projemi Canlıya Aldığım Bu Linkten İnceleyebilirsiniz;
